@@ -27,7 +27,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <a href="" className="btn-light">All courses </a>
+        <a href="" className="BtnLight">All courses </a>
       </div>
     </section>
   );

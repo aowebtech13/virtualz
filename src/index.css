@@ -1,21 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 :root{
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 
   --orange-color:#da722c;
-  --dark-blue-color:#0230447;
+  --dark-blue-color:#023047;
   --dark-color:#070917;
   --light-color:#E8F7FB;
   --light-blue-color:#6f7dfb;
   
-
-
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   
+}
+.DarkBtn{
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 24px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  
+  background: var(--dark-blue-color);
+  
+  
+
+}
+.BtnLight{
+background-color: var(--orange-color);
+text-decoration: none;
+padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 24px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+section{
+  margin-top: 100px;
+
+}
+h2{
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 120%;
+  color: var(--dark-color);
+  margin: 0;
 }

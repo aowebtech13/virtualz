@@ -1,0 +1,21 @@
+.course-cards .course-card img{
+    width: 30%;
+   
+    border-radius: 16px;
+}
+.light {
+    color: white;
+}
+.courses-section{
+    background: linear-gradient(180deg, #6f6f6f 0%, #26308c 100%);
+
+    padding: 70px 0;
+}
+.courses-section .light{
+    color: var(--light-color);
+    text-align: center;
+}
+.course-cards{
+    display: flex;
+    gap: 70px;
+}
